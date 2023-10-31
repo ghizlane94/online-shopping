@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(22, 140, 101);
+}
+
+.first-div{
+  display:flex;
+  justify-content: space-between;
+}
+.first-div i{
+  padding-top: 30px;
+  cursor: pointer;
+
+}
+.first-div i span{
+  font-size: 12px;
+}
+
+.card img{
+  width: 200px;
+  padding-top: 20px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+button{
+  width: 250px;
+  height: 30px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgb(22, 140, 101);
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(22, 140, 101);
+}
