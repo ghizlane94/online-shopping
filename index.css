@@ -2,14 +2,19 @@ body{
   background-color: rgb(22, 140, 101);
 }
 
+
 .first-div{
   display:flex;
   justify-content: space-between;
 }
 .first-div i{
   padding-top: 30px;
+  padding-right: 105px;
   cursor: pointer;
 
+}
+.first-div h1{
+  padding-left: 120px;
 }
 .first-div i span{
   font-size: 12px;
@@ -19,8 +24,15 @@ body{
   width: 200px;
   padding-top: 20px;
 }
+#img1{
+  width: 175px;
+}
+#img2{
+  width: 148px;
+}
 .cards{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .card{
@@ -34,7 +46,7 @@ body{
   cursor: pointer;
 }
 
-button{
+.card button{
   width: 250px;
   height: 30px;
   cursor: pointer;
