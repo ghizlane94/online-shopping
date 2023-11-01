@@ -1,7 +1,9 @@
 
 const addButton = document.querySelector(".card button");
 const number = document.querySelector("span");
+let count = 0;
 addButton.addEventListener("click",() =>{
-  number.innerHTML += 1
+  count++;
+  number.innerHTML = count;
   console.log("hello");
 })
